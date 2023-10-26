@@ -1,0 +1,149 @@
+.nav {
+    background-color: #31a38a;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    text-align: center;
+    margin: auto;
+
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    height: 30%;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.nav .active {
+    background-color: white;
+    color: #31a38a;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    text-align: center;
+    float: none;
+    padding-top: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    font-weight: 550;
+    font-size: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.content {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+}
+
+.content h2 {
+    /* padding-top: 30px; */
+    font-size: 16px;
+    ;
+
+}
+
+a.one:link {
+    color: orange;
+    text-decoration: none;
+    padding-top: 50px;
+
+
+}
+
+a.two:link {
+    color: orange;
+    text-decoration: none;
+
+}
+
+a.three:link {
+    color: orange;
+    text-decoration: none;
+
+}
+
+.img {
+    width: 90%;
+    height: 400px;
+    align-items: center;
+    object-fit: contain;
+}
+
+.footer .container {
+    max-width: 700px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    margin-top: 1200px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .ul {
+    list-style-type: none;
+
+}
+
+.footer {
+    background-color: #c9c9c5;
+    /* padding: 100px 0; */
+}
+
+.footer .footer-col {
+    line-height: normal;
+
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+
+}
+
+.footer-col h4 {
+    position: relative;
+    font-size: 18px;
+    color: #5e5e5b;
+    margin-bottom: 35px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    color: #5e5e5b;
+    text-decoration: none;
+    display: block;
+    list-style-type: none;
+}
